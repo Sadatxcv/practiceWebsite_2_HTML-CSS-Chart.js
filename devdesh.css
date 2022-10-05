@@ -1,0 +1,101 @@
+.nav-item:hover {
+  background-color: #7333dc;
+  border-radius: 50px;
+  color: white;
+}
+.nav-item {
+  transition: ease 0.5s;
+}
+.navbar {
+  --bs-navbar-hover-color: rgb(255, 255, 255) !important;
+  --bs-navbar-color: #333333 !important;
+}
+.nav-item-logo:hover a {
+  color: rgba(0, 0, 0, 0.651);
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px #7433dc77;
+}
+.nav-item-logo a {
+  transition: ease 0.5s;
+}
+
+.nav {
+  --bs-nav-link-color: #6f7a9a !important;
+  --bs-nav-link-hover-color: white !important;
+}
+.students-table select {
+  padding: 14px 20px;
+  border: 2px solid #c7cdd8;
+  border-radius: 30px;
+  margin: 10px;
+  width: fit-content;
+}
+
+.students-table input {
+  padding: 14px 20px;
+  border: 2px solid #c7cdd8;
+  border-radius: 30px;
+  margin: 10px;
+  width: 356.77px;
+}
+.top-boxes {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 25px;
+  width: auto;
+  height: fit-content;
+}
+.student-button:hover {
+  color: #2a0857 !important;
+}
+.student-button {
+  transition: ease 0.2s;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-accent-bg: white !important;
+  color: #6f7a9a !important;
+}
+.table-striped > tbody > tr:nth-of-type(even) > * {
+  --bs-table-accent-bg: white !important;
+  color: #6f7a9a !important;
+}
+.students-table-buttons button {
+  padding: 15px 20px;
+  width: 165px;
+  border-radius: 49px;
+  
+}
+.students-table-buttons .button-1 {
+  border: 1px solid #c7cdd8;
+  background-color: #ebf0f5;
+  color: #7333dc;
+}
+.students-table-buttons .button-2 {
+  border: 1px solid #7333dc;
+  background-color: #7333dc;
+  color: #ffffff;
+}
+
+.students-table-buttons .button-3 {
+  border: 1px solid #9747ff;
+  background-color: #9747ff;
+  color: #ffffff;
+  transform: matrix(1, 0, -0.01, 1, 0, 0);
+}
+.top-boxes td {
+  font-size: 10px;
+}
+.top-boxes tr {
+  font-size: 10px;
+}
+.bottom-box {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 25px;
+  width: auto;
+  height:fit-content;
+  margin: 25px;
+}
+@media (min-width: 768px) {
+}
